@@ -11,6 +11,8 @@ public interface StudentService {
 	Student createStudent(Student student);
 
 	Student updateStudent(Student student, Integer id);
+
+	Student getStudentById(Integer id);
 	
 
 }

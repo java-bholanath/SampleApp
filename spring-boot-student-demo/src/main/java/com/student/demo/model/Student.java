@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * @Author Bhalanath.
+ * @Author Bholanath.
  * Pojo class.
  */
 @Table(name="TBL_STUDENT")
@@ -92,10 +92,5 @@ public class Student implements Serializable {
 			return false;
 		return true;
 	}
-	
-	
-
-	
-	
 	
 }

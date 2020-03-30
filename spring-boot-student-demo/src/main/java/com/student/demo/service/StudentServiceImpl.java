@@ -36,6 +36,13 @@ public class StudentServiceImpl implements StudentService {
 		return studentRepository.save(std.get());
 
 	}
+
+	@Override
+	public Student getStudentById(Integer id) {
+		Optional<Student> std = studentRepository.findById(id);
+		
+		return std.get();
+	}
 	 
 
 
